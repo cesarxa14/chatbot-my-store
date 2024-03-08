@@ -6,7 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const flujoPrincipal = addKeyword(['hola', 'buenas', 'que tal' ])
     .addAnswer('Bienvenido a mi tienda')
-    .addAnswer('En que te puedo ayudar?', {capture: true}, (ctx) => {
+    .addAnswer('En que te puedo ayudar amigo?', {capture: true}, (ctx) => {
         console.log('contexto', ctx)
     })
 
